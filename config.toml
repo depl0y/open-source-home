@@ -1,0 +1,9 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'My open-source home'
+theme = 'hugo-book'
+enableEmoji = true
+
+[params]
+    BookTheme = 'light'
+    BookToC = true
