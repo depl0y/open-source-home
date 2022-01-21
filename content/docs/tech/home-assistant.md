@@ -26,11 +26,16 @@ Things I see where Home Assistant could be really useful:
 
 One of the challenges is to keep the house operating while Home Assistant goes down (or is under maintenance). This is one of the things that really brings down reliability.
 
+#### Overview
+Below you see an example of a part of the data that is available through home Assistant.
+
+![Home Assistant example 1](/images/home-assistant-1.png)
+
 ### Open questions
 - [ ] How to make Home Assistant more resilient?
 - [ ] Should we separate Zigbee and Home Assistant to keep light functionality when Home Assistant goes down?
 - [ ] How do we create a production and test environment that can be exchanged (e.g. when upgrading) ?
-- [ ] Where do we store the monitoring data?
+- [ ] Where do we store the [monitoring data](/docs/tech/monitoring)?
 
 ### Links
 

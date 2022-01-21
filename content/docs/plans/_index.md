@@ -1,5 +1,6 @@
 ---
 title: Plans
+draft: true
 weight: 101
 ---
 

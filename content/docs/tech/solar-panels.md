@@ -17,31 +17,26 @@ Solar panels, the aren't many reasons to not use them. The investment up-front c
 
 Because this tech is outdated as soon as you write it down, we are checking the current (2022) offerings and see how it work *now*.
 
-| Calculation | Values | Unit |
-| - | -: | :- |
-| Predicted yearly usage | 12.000 | kWh |
-| Panel production | 385 | Wp |
-| Amount needed | 32 | panels |
+| Calculation | Values |
+| - | -: |
+| Predicted yearly usage | 12.000 kWh |
+| Panel production | 385 Wp |
+| Efficiency penalty | 85 %|
+| Panels needed | ±36 |
 
-In this calculation we need at least 32 panels to fulfil our energy usage. We need a very detailed calculation for this, to see what the *predicted yearly usage* is.
+In this calculation we need at least 36 panels to fulfil our energy usage. We need a very detailed calculation for this, to see what the [*predicted yearly usage*](/docs/references/power-usage) is.
+
+### Cost
+
+{{< partial file="/partials/prices/_solar-panels.md" markdown="true" >}}
+
+> **Attention**  
+This cost is only converter and solar panels. This of course isn't enough, as they need to be installed, have some framing around them and should be connected to main power source.
 
 ### Open questions
 
 - [ ] How much energy is expected to be used by the car?
 - [ ] What type of converter is needed to accommodate this many solar panels?
 - [ ] Is there a way to increase efficiency when temperatures are really high?
-- [ ] What is the breaker capacity we need for this?
+- [ ] What is the [breaker size](/docs/references/breaker-size/) we need for this?
 - [ ] Do we need [energy storage](/docs/tech/energy-storage) when we produce more power than we use?
-
-I found this table somewhere for reference, this needs to be checked when ordering:
-
-| Power connection | Max breaker | Max capacity |
-| :- | -: | -: |
-|1 x 25A|16A|3.680 Watt|
-|1 x 35A|25A|5.750 Watt|
-|1 x 40A|25A|5.750 Watt|
-|3 x 25A|3 x 16A|3 x 3.680 Watt|
-|3 x 35A|3 x 25A|3 x 5.750 Watt|
-|3 x 40A|3 x 32A|3 x 7.360 Watt|
-|3 x 63A|3 x 40A|3 x 9.200 Watt|
-|3 x 80A|3 x 50A|3 x 11.500 Watt|

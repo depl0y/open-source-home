@@ -1,5 +1,10 @@
 {
     "cSpell.words": [
         "Zigbee"
-    ]
+    ],
+    "editor.trimAutoWhitespace": true,
+    "[markdown]": {
+        "editor.trimAutoWhitespace": false,
+        "files.trimTrailingWhitespace": false
+    }
 }

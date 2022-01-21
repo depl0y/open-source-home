@@ -17,8 +17,21 @@ Currently I am using a [Besen Wallbox](https://www.besen-group.com/ev-charging-s
 
 For Home Assistant to be able to control it, I need to figure out the network commands it is sending, so I sent a request to the company that created it, to see if any API documentation is available.
 
+### Limitations
+When charging a car from home you are limited by your [breaker size](/docs/references/breaker-size/) and of course the maximum capacity of your charger itself.
+
+In the cost calculation below we are using a 3x35A connection, so we can charge cars with a maximum of 22kW.
+
+### Cost
+{{< partial file="/partials/prices/_car-chargers.md" markdown="true" >}}
+
+### Power usage
+{{< partial file="/partials/power-usage/_cars.md" markdown="true" >}}
+
+> **Attention**  
+This is only when all miles are driven using electric. Too bad this isn't the case as you can see in the summary below. For Car 2 (which isn't electric yet) this could be almost 100% electric though.
+
 ### Open questions
-- [ ] What charging limits are we looking at? Currently the most my charger can charge with is **11KW** because of limitations of my power supply.
 - [ ] Is this charger the right choice?
 - [ ] How do we communicate with the charger?
 - [ ] Do we need authentication at the charger? (e.g. with NFC)
