@@ -1,0 +1,3 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/depl0y/depl0y.github.io
