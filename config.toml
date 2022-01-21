@@ -3,7 +3,11 @@ languageCode = 'en-us'
 title = 'My open-source home'
 theme = 'hugo-book'
 enableEmoji = true
+enableInlineShortcodes = true
 
 [params]
     BookTheme = 'light'
     BookToC = true
+
+[markup.goldmark.renderer]
+unsafe= true

@@ -1,0 +1,40 @@
+.markdown .price-table table {
+    width: 100%;
+    table-layout: fixed;
+    display: table;
+
+    thead tr th:first-child,
+    tbody tr td:first-child {
+        width: 100px
+    }
+    thead tr th:nth-child(3),
+    thead tr th:nth-child(4) {
+        width: 100px
+    }
+
+    tbody tr td:nth-child(4) {
+        font-weight: bold;
+    }
+}
+
+.markdown .spaced-table table {
+    width: 100%;
+    table-layout: fixed;
+    display: table;
+}
+
+.markdown .simple-value-table table {
+    width: 100%;
+    table-layout: auto;
+    display: table;
+
+    thead tr th:nth-child(2),
+    tbody tr td:nth-child(2),
+    thead tr th:nth-child(3),
+    tbody tr td:nth-child(3),
+    thead tr th:nth-child(4),
+    tbody tr td:nth-child(4) {
+        width: 1%;
+        white-space: nowrap;
+    }
+}

@@ -5,6 +5,7 @@ date: 2022-01-11T00:00:00
 ---
 
 # Breaker size
+<div class='spaced-table'>
 
 | Power connection | Max breaker | Max capacity |
 | :- | -: | -: |
@@ -16,3 +17,5 @@ date: 2022-01-11T00:00:00
 |3 x 40A|3 x 32A|3 x 7.360 Watt|
 |3 x 63A|3 x 40A|3 x 9.200 Watt|
 |3 x 80A|3 x 50A|3 x 11.500 Watt|
+
+</div>

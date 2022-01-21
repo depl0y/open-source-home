@@ -17,18 +17,23 @@ Solar panels, the aren't many reasons to not use them. The investment up-front c
 
 Because this tech is outdated as soon as you write it down, we are checking the current (2022) offerings and see how it work *now*.
 
+<div class="simple-value-table">
+
 | Calculation | Values |
 | - | -: |
 | Predicted yearly usage | 12.000 kWh |
 | Panel production | 385 Wp |
 | Efficiency penalty | 85 %|
 | Panels needed | ±36 |
+</div>
 
 In this calculation we need at least 36 panels to fulfil our energy usage. We need a very detailed calculation for this, to see what the [*predicted yearly usage*](/docs/references/power-usage) is.
 
 ### Cost
 
+<div class='price-table'>
 {{< partial file="/partials/prices/_solar-panels.md" markdown="true" >}}
+</div>
 
 > **Attention**  
 This cost is only converter and solar panels. This of course isn't enough, as they need to be installed, have some framing around them and should be connected to main power source.

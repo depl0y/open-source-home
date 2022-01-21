@@ -15,11 +15,16 @@ date: 2022-01-11T00:00:00
 
 ### Cost
 
+<div class='simple-value-table'>
 {{< partial file="/partials/prices/_heat-pump.md" markdown="true" >}}
+</div>
 
 ### Power usage
+<div class='simple-value-table'>
 
 {{< partial file="/partials/power-usage/_heat-pump.md" markdown="true" >}}
+
+</div>
 
 > This can fluctuate when use a really efficient heat pump, but these are average numbers I found.
 
