@@ -1,7 +1,19 @@
+.markdown .with-total table {
+    tbody tr:last-child {
+        border-top: double 4px rgb(197, 200, 202);
+        background-color: #fcefe1; //rgb(250, 250, 250);
+        color: black;
+        font-weight: bold;
+
+        td {
+            border: 0;
+        }
+    }
+}
+
 .markdown .price-table table {
     width: 100%;
     table-layout: fixed;
-    display: table;
 
     thead tr th:first-child,
     tbody tr td:first-child {
@@ -20,13 +32,11 @@
 .markdown .spaced-table table {
     width: 100%;
     table-layout: fixed;
-    display: table;
 }
 
 .markdown .simple-value-table table {
     width: 100%;
     table-layout: auto;
-    display: table;
 
     thead tr th:nth-child(2),
     tbody tr td:nth-child(2),

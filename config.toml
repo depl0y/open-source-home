@@ -6,8 +6,10 @@ enableEmoji = true
 enableInlineShortcodes = true
 
 [params]
+    BookSection = '*'
     BookTheme = 'light'
     BookToC = true
+    BookSearch = false
 
 [markup.goldmark.renderer]
 unsafe= true
